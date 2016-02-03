@@ -44,7 +44,7 @@
     },
 
     "scripts": {
-        "preinstall": "apt-get install xvfb && npm install -g phantomjs && npm install -g slimerjs",
+        "preinstall": "yum install xorg-x11-server-Xvfb && npm install -g phantomjs && npm install -g slimerjs",
         "lint": "jshint src test example public/js/app.js",
         "test": "mocha",
         "start": "./bin/manet --port 80"
