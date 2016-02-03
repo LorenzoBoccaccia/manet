@@ -1,1 +1,1 @@
-web: npm install -g phantomjs && ./bin/manet --port $PORT --options:format jpg
+web: npm install -g phantomjs && npm install -g slimerjs && ./bin/manet --port 80 --options:format jpg
