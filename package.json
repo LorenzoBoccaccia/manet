@@ -44,9 +44,9 @@
     },
 
     "scripts": {
-        "preinstall": "npm install -g phantomjs && npm install -g slimerjs"
+        "preinstall": "npm install -g phantomjs && npm install -g slimerjs",
         "lint": "jshint src test example public/js/app.js",
-        "test": "mocha"
+        "test": "mocha",
         "start": "./bin/manet --port 80"
     },
 
